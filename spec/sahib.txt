@@ -1,0 +1,48 @@
+{title: "Musik Database Management System"}
+
+[songs]
+* id
+title id *
+album id *
+artist id *
+genre id *
+year 
+duration 
+rating 
+
+
+[playlists]
+* id
+name
+
+[playlist_bestof]
+* id
+song_id*
+
+
+[title]
+* id
+title
+
+[artist]
+* id
+artist
+
+[album]
+id *
+album 
+
+[genre]
+id *
+genre 
+
+[coverart]
+album id *
+cover_blob
+
+
+[songs] 1--1 [title]
+[songs] 1--1 [artist]
+[songs] 1--1 [album]
+[songs] 1--1 [genre]
+

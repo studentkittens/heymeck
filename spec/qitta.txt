@@ -1,0 +1,71 @@
+{title: "Movie Database Management System"}
+
+[movie]
+* id
+title id *
+regisseur id *
+art id *
+genre id *
+actor id *
+year
+duration 
+rating 
+location
+year 
+
+
+[title]
+* id
+title
+originaltitle
+
+
+[regisseur]
+* id
+first_name
+last_name
+person_art
+
+
+[genre]
+id *
+genre 
+
+
+[art]
+movie id *
+cover_blob
+fanart_blob
+
+[actor]
+id *
+first_name
+last_name
+actor_photo
+
+
+
+[movie] 1--1 [title]
+[movie] 1--1 [regisseur]
+[movie] 1--1 [genre]
+[movie] 1--1 [art]
+[movie] 1--1 [actor]
+[movie] 1--1 [art]
+
+
+#notes
+#
+# * Liste der besten Filme
+# * Liste der schlechtesten Filme
+# * Liste der am häufigsten bewerteten Filme
+# *
+# * Liste der Darsteller mit den besten Filmen
+# * Liste der Regisseure mit den besten Filmen
+# * Liste der Genres mit den besten Filmen 
+# * Liste der Herstellungsländer mit den besten Filmen 
+# * Liste der Erscheinungsjahre mit den besten Filmen 
+# *
+# *
+# * Liste nach der Zahl der eingetragenen Filme
+# * Liste nach der Zahl der eingetragenen Personen 
+# * Liste nach der Zahl der bewerteten Filme
