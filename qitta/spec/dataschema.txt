@@ -1,5 +1,3 @@
-{title: "Movie Database Management System"}
-
 [movie] {color:orange}
 * id
 title_id *
