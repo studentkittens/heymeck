@@ -1,56 +1,79 @@
 {title: "Movie Database Management System"}
 
-[movie]
+[movie] {color:orange}
 * id
-title id *
-regisseur id *
-art id *
-genre id *
-actor id *
+title_id *
+director_id *
+writer_id *
+genre_id *
+art_id *
+plot
+tagline
 year
-duration 
-rating 
+runtime
 location
-year 
+rating 
+votes
 
-
-[title]
+[art] {color:green}
 * id
-title
-originaltitle
+cover
+fanart
 
+[writer] {color:green}
+* id
+first_name
+last_name
 
-[regisseur]
+[director] {color:green}
+* id
+first_name
+last_name
+
+[actor] {color:green}
 * id
 first_name
 last_name
 person_art
 
 
-[genre]
+[title] {color:green}
+* id
+title
+original_title
+
+
+[genre] {color:green}
 id *
-genre 
+name 
 
 
-[art]
-movie id *
-cover_blob
-fanart_blob
-
-[actor]
-id *
-first_name
-last_name
-actor_photo
+[movie-to-actor] {color:blue}
+actor_id *
+movie_id *
+name
 
 
+[movie-to-director] {color:blue}
+director_id *
+movie_id *
 
-[movie] 1--1 [title]
-[movie] 1--1 [regisseur]
-[movie] 1--1 [genre]
-[movie] 1--1 [art]
-[movie] 1--1 [actor]
-[movie] 1--1 [art]
+
+[movie-to-writer] {color:blue}
+writer_id *
+movie_id *
+
+
+[movie] 1--+ [movie-to-actor] 
+[movie-to-actor] +--1 [actor]
+[movie] 1--+ [movie-to-director] 
+[movie] 1--+ [movie-to-writer] 
+[movie-to-director] +--1 [director]
+[movie-to-writer] +--1 [writer]
+[movie] 1--+[genre]
+[movie] 1--+[title]
+[movie] 1--+[art]
+
 
 
 #notes
