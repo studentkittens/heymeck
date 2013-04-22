@@ -7,11 +7,13 @@
 Musicbrowser
 ============
 
+Christopher Pahl (MN 01271710)
+
 Datenbankschema
 ---------------
 
 .. image:: ./normalized.png
-   :width: 500
+   :width: 700
 
 Beschreibung
 ------------
