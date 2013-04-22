@@ -36,7 +36,6 @@ Playlist
 
     - Auswahl der aktuellen Playlist in einem Dropdown.
     - Anzeige einer Playlist als Liste von Songs mit Artist/Album/Title.
-    - Anzeige der Similar Artists (mit entsprechender Verlinkung)
     - Verlinkung auf Statistics View.
 
 Artist View
@@ -49,7 +48,7 @@ Artist View
 
     **Inhalt:**
 
-        - Anzeige eines Künstlerbildes.
+        - Anzeige eines Künstlerbildes und der Similar Artists.
         - Anzeige einer Liste von Alben des Künstlers, die jeweils auf die 
           entsprechenden Albumview verlinken. Dazu ein Cover-Thumbnail.
 

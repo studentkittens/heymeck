@@ -29,7 +29,6 @@ Views
 
     - Auswahl der aktuellen Playlist in einem Dropdown.
     - Anzeige einer Playlist als Liste von Songs mit Artist/Album/Title.
-    - Anzeige der Similar Artists (mit entsprechender Verlinkung)
     - Klick auf Artist: Anzeige des Artist Views.
     - Klick auf Album: Anzeige des Album Views.
     - Klick auf Title: Anzeige des Title Views.
@@ -40,6 +39,7 @@ Views
     .. image:: ./artist.png
 
     - Anzeige eines Künstlerbildes.
+    - Anzeige der Similar Artists (mit entsprechender Verlinkung)
     - Anzeige einer Liste von Alben des Künstlers, die jeweils auf die 
       entsprechenden Albumview verlinken. Dazu ein Cover-Thumbnail.
 
