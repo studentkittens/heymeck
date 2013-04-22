@@ -1,0 +1,50 @@
+{title: "Musicbrowser (normalisiert)"; title-size: 18}
+
+[Playlists] {color: red}
+* playlist_id
+  playlist_name
+
+[PlaylistsToSongs] {color: blue}
+  playlist_id *
+  songs_id *
+
+[Songs] {color: orange}
+* songs_id
+  artist_id *
+  album_id *
+  title_id *
+  genre_id *
+  duration
+
+[SimilarArtists] {color: blue}
+  artist_id * 
+  similar_artist_id *
+
+[Artists] {color: green}
+* artist_id
+  name
+  photo_url
+
+[Albums] {color: green}
+* album_id
+  name
+  cover_url
+
+[Titles] {color: green}
+* title_id 
+  name
+  text
+
+[Genres] {color: green}
+* genre_id
+  name
+
+[Playlists] 1--+ [PlaylistsToSongs]
+[PlaylistsToSongs] +--1 [Songs]
+
+[Songs] 1--1 [Artists]
+[Songs] 1--1 [Albums]
+[Songs] 1--1 [Titles]
+[Songs] 1--1 [Genres]
+
+[SimilarArtists] +--1 [Artists]

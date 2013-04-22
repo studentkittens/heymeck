@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Musicbrowser &mdash; apex 0.1 documentation</title>
+    
+    <link rel="stylesheet" href="_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/styles.css" type="text/css" />
+    <link rel="stylesheet" href="_static/single.css" type="text/css" />
+    
+
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/common.js"></script>
+    <script type="text/javascript" src="_static/slides.js"></script>
+    <script type="text/javascript" src="_static/sync.js"></script>
+    <script type="text/javascript" src="_static/controller.js"></script>
+    <script type="text/javascript" src="_static/init.js"></script>
+    <link rel="top" title="apex 0.1 documentation" href="#" /> 
+  </head>
+  <body>
+
+<section
+   id="slide_container"
+   class='slides layout-regular'>
+
+
+  <article class="slide level-1" id="musicbrowser">
+<h1>Musicbrowser</h1>
+
+</article>
+<article class="slide level-2" id="datenbankschema">
+<h2>Datenbankschema</h2>
+<a class="reference internal image-reference" href="_images/normalized.png"><img alt="_images/normalized.png" src="_images/normalized.png" style="width: 500px;" /></a>
+
+</article>
+<article class="slide level-2" id="beschreibung">
+<h2>Beschreibung</h2>
+<p>Der Musicbrowser soll eine Übersicht über die eigene Musiksammlung bieten.
+Er bietet dazu eine Liste von Songs bei dem jedes Feld mit einer Detailview verlinkt ist.
+So soll nach einem Klick auf einem Künstlernamen Details zu diesem angezeigt werden.</p>
+<p>Zudem soll eine zusätzliche Seite mit Statistiken über die Datenbank
+implementiert sein.</p>
+<p>Da man oft mehr als eine Playlist hat, soll diese mittels eines Dropbdows
+ausgewählt werden können.</p>
+
+</article>
+<article class="slide level-2" id="playlist">
+<h2>Playlist</h2>
+<blockquote>
+<div><a class="reference internal image-reference" href="_images/queue.png"><img alt="_images/queue.png" src="_images/queue.png" style="width: 400px;" /></a>
+<ul class="simple">
+<li>Auswahl der aktuellen Playlist in einem Dropdown.</li>
+<li>Anzeige einer Playlist als Liste von Songs mit Artist/Album/Title.</li>
+<li>Anzeige der Similar Artists (mit entsprechender Verlinkung)</li>
+<li>Verlinkung auf Statistics View.</li>
+</ul>
+</div></blockquote>
+
+</article>
+<article class="slide level-2" id="artist-view">
+<h2>Artist View</h2>
+<blockquote>
+<div><p><strong>Beispielbild:</strong></p>
+<blockquote>
+<div><a class="reference internal image-reference" href="_images/artist.png"><img alt="_images/artist.png" src="_images/artist.png" style="width: 120px;" /></a>
+</div></blockquote>
+<p><strong>Inhalt:</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li>Anzeige eines Künstlerbildes.</li>
+<li>Anzeige einer Liste von Alben des Künstlers, die jeweils auf die
+entsprechenden Albumview verlinken. Dazu ein Cover-Thumbnail.</li>
+</ul>
+</div></blockquote>
+</div></blockquote>
+
+</article>
+<article class="slide level-2" id="album-view">
+<h2>Album View</h2>
+<blockquote>
+<div><p><strong>Beispielbild:</strong></p>
+<blockquote>
+<div><img alt="_images/album.png" src="_images/album.png" />
+</div></blockquote>
+<p><strong>Inhalt:</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li>Anzeige des Albumcovers.</li>
+<li>Anzeige der Lieder innerhalb des Albums, die jeweils auf die entsprechenden Titleviews verlinken.</li>
+</ul>
+</div></blockquote>
+</div></blockquote>
+
+</article>
+<article class="slide level-2" id="title-view">
+<h2>Title View</h2>
+<blockquote>
+<div><p><strong>Beispielbild:</strong></p>
+<blockquote>
+<div><img alt="_images/title.png" src="_images/title.png" />
+</div></blockquote>
+<p><strong>Inhalt:</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li>Anzeige des Liedtitels, Genre und Dauer.</li>
+<li>Anzeige eines Liedtextes.</li>
+</ul>
+</div></blockquote>
+</div></blockquote>
+
+</article>
+<article class="slide level-2" id="statistics">
+<h2>Statistics</h2>
+<blockquote>
+<div><p><strong>Inhalt:</strong></p>
+<blockquote>
+<div><ul>
+<li><p class="first">Anzeige verschiedener Diagramme:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Genre Pie-Chart (Aufteilung der Genres)</li>
+<li>Duration Bar Chart (Längste/Kürzeste Lieder)</li>
+<li>Künstlerverteilung (wieviel Songs von welchen Künstler)</li>
+<li>...</li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+</div></blockquote>
+
+</article>
+
+
+</section>
+  </body>
+</html>

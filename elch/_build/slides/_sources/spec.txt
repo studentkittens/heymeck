@@ -1,0 +1,69 @@
+Musicbrowser
+============
+
+Datenbankschema
+---------------
+
+.. image:: ./normalized.png
+   :width: 500
+
+Beschreibung
+------------
+
+Der Musicbrowser soll eine Übersicht über die eigene Musiksammlung bieten. 
+Er bietet dazu eine Liste von Songs bei dem jedes Feld mit einer Detailview verlinkt ist.
+So soll nach einem Klick auf einem Künstlernamen Details zu diesem angezeigt werden. 
+
+Zudem soll eine zusätzliche Seite mit Statistiken über die Datenbank
+implementiert sein. 
+
+Da man oft mehr als eine Playlist hat, soll diese mittels eines Dropbdows
+ausgewählt werden können.
+
+Views
+-----
+
+**Playlist**:
+
+    .. image:: ./queue.png
+
+    - Auswahl der aktuellen Playlist in einem Dropdown.
+    - Anzeige einer Playlist als Liste von Songs mit Artist/Album/Title.
+    - Anzeige der Similar Artists (mit entsprechender Verlinkung)
+    - Klick auf Artist: Anzeige des Artist Views.
+    - Klick auf Album: Anzeige des Album Views.
+    - Klick auf Title: Anzeige des Title Views.
+    - Verlinkung auf Statistics View.
+
+**Artist View:**
+    
+    .. image:: ./artist.png
+
+    - Anzeige eines Künstlerbildes.
+    - Anzeige einer Liste von Alben des Künstlers, die jeweils auf die 
+      entsprechenden Albumview verlinken. Dazu ein Cover-Thumbnail.
+
+**Album View:**
+    
+    .. image:: ./album.png
+
+    - Anzeige des Albumcovers.
+    - Anzeige der Lieder innerhalb des Albums, die jeweils auf die
+      entsprechenden Titleviews verlinken.
+
+**Title View:**
+
+    .. image:: ./title.png
+
+    - Anzeige des Liedtitels, Genre und Dauer.
+    - Anzeige eines Liedtextes.
+
+**Statistics:**
+
+    - Anzeige verschiedener Diagramme:
+
+        * Genre Pie-Chart (Aufteilung der Genres)
+        * Duration Bar Chart (Längste/Kürzeste Lieder)
+        * Künstlerverteilung (wieviel Songs von welchen Künstler)
+        * ... 
+
