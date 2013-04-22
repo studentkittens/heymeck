@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Arch Linux) (format=pdflatex 2013.3.24)  22 APR 2013 20:20
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Arch Linux) (format=pdflatex 2013.4.22)  22 APR 2013 21:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -522,7 +522,7 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \TY@tablewidth=\dimen116
 )
 (/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2000/07/18 v2.13 AMS math features
+Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip67
 
 For additional information on amsmath, use the `?' option.
@@ -542,20 +542,20 @@ Package: amsbsy 1999/11/29 v1.2d
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count97
-LaTeX Info: Redefining \frac on input line 211.
+LaTeX Info: Redefining \frac on input line 210.
 \uproot@=\count98
 \leftroot@=\count99
-LaTeX Info: Redefining \overline on input line 307.
+LaTeX Info: Redefining \overline on input line 306.
 \classnum@=\count100
 \DOTSCASE@=\count101
-LaTeX Info: Redefining \ldots on input line 379.
-LaTeX Info: Redefining \dots on input line 382.
-LaTeX Info: Redefining \cdots on input line 467.
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
 \Mathstrutbox@=\box33
 \strutbox@=\box34
 \big@size=\dimen119
-LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \macc@depth=\count102
 \c@MaxMatrixCols=\count103
 \dotsspace@=\muskip10
@@ -576,8 +576,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \multlinegap=\skip68
 \multlinetaggap=\skip69
 \mathdisplay@stack=\toks27
-LaTeX Info: Redefining \[ on input line 2666.
-LaTeX Info: Redefining \] on input line 2667.
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
 )
 (/usr/share/texmf-dist/tex/latex/base/makeidx.sty
 Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
@@ -933,19 +933,23 @@ LaTeX Font Info:    Try loading font information for TS1+ptm on input line 131.
  (/usr/share/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<dataschema.png, id=49, 634.37pt x 1133.23375pt>
-File: dataschema.png Graphic file (type png)
- <use dataschema.png>
-Package pdftex.def Info: dataschema.png used on input line 157.
+<./dataschema.png, id=49, 634.37pt x 1133.23375pt>
+File: ./dataschema.png Graphic file (type png)
+ <use ./dataschema.png>
+Package pdftex.def Info: ./dataschema.png used on input line 157.
 (pdftex.def)             Requested size: 634.36844pt x 1133.23099pt.
-File: dataschema.png Graphic file (type png)
+File: ./dataschema.png Graphic file (type png)
 
-<use dataschema.png>
-Package pdftex.def Info: dataschema.png used on input line 157.
+<use ./dataschema.png>
+Package pdftex.def Info: ./dataschema.png used on input line 157.
 (pdftex.def)             Requested size: 469.755pt x 839.18507pt.
  [1
 
-] [2 <./dataschema.png>]
+]
+Overfull \vbox (188.75508pt too high) has occurred while \output is active []
+
+
+[2 <./dataschema.png>]
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 160.
@@ -953,15 +957,15 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 160.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 160.
-<mainview.png, id=59, 505.18147pt x 354.26471pt>
-File: mainview.png Graphic file (type png)
- <use mainview.png>
-Package pdftex.def Info: mainview.png used on input line 162.
+<./mainview.png, id=59, 505.18147pt x 354.26471pt>
+File: ./mainview.png Graphic file (type png)
+ <use ./mainview.png>
+Package pdftex.def Info: ./mainview.png used on input line 162.
 (pdftex.def)             Requested size: 505.18024pt x 354.26384pt.
-File: mainview.png Graphic file (type png)
+File: ./mainview.png Graphic file (type png)
 
-<use mainview.png>
-Package pdftex.def Info: mainview.png used on input line 162.
+<use ./mainview.png>
+Package pdftex.def Info: ./mainview.png used on input line 162.
 (pdftex.def)             Requested size: 469.755pt x 329.43575pt.
  [3
 
@@ -969,43 +973,43 @@ Package pdftex.def Info: mainview.png used on input line 162.
 
 ]
 Chapter 2.
-<movieview.png, id=71, 501.875pt x 352.31625pt>
-File: movieview.png Graphic file (type png)
- <use movieview.png>
-Package pdftex.def Info: movieview.png used on input line 180.
+<./movieview.png, id=71, 501.875pt x 352.31625pt>
+File: ./movieview.png Graphic file (type png)
+ <use ./movieview.png>
+Package pdftex.def Info: ./movieview.png used on input line 180.
 (pdftex.def)             Requested size: 501.87376pt x 352.31538pt.
-File: movieview.png Graphic file (type png)
+File: ./movieview.png Graphic file (type png)
 
-<use movieview.png>
-Package pdftex.def Info: movieview.png used on input line 180.
+<use ./movieview.png>
+Package pdftex.def Info: ./movieview.png used on input line 180.
 (pdftex.def)             Requested size: 469.755pt x 329.78496pt.
  [5 <./movieview.png>] [6
 
 ]
 Chapter 3.
-<actorview.png, id=81, 501.875pt x 352.31625pt>
-File: actorview.png Graphic file (type png)
- <use actorview.png>
-Package pdftex.def Info: actorview.png used on input line 200.
+<./actorview.png, id=81, 501.875pt x 352.31625pt>
+File: ./actorview.png Graphic file (type png)
+ <use ./actorview.png>
+Package pdftex.def Info: ./actorview.png used on input line 200.
 (pdftex.def)             Requested size: 501.87376pt x 352.31538pt.
-File: actorview.png Graphic file (type png)
+File: ./actorview.png Graphic file (type png)
 
-<use actorview.png>
-Package pdftex.def Info: actorview.png used on input line 200.
+<use ./actorview.png>
+Package pdftex.def Info: ./actorview.png used on input line 200.
 (pdftex.def)             Requested size: 469.755pt x 329.78496pt.
  [7 <./actorview.png>] [8
 
 ]
 Chapter 4.
-<statistics.png, id=91, 501.875pt x 352.31625pt>
-File: statistics.png Graphic file (type png)
- <use statistics.png>
-Package pdftex.def Info: statistics.png used on input line 213.
+<./statistics.png, id=91, 501.875pt x 352.31625pt>
+File: ./statistics.png Graphic file (type png)
+ <use ./statistics.png>
+Package pdftex.def Info: ./statistics.png used on input line 213.
 (pdftex.def)             Requested size: 501.87376pt x 352.31538pt.
-File: statistics.png Graphic file (type png)
+File: ./statistics.png Graphic file (type png)
 
-<use statistics.png>
-Package pdftex.def Info: statistics.png used on input line 213.
+<use ./statistics.png>
+Package pdftex.def Info: ./statistics.png used on input line 213.
 (pdftex.def)             Requested size: 469.755pt x 329.78496pt.
  (./Spezifikation.ind)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 246.
@@ -1020,10 +1024,10 @@ Package rerunfilecheck Info: File `Spezifikation.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 246.
  ) 
 Here is how much of TeX's memory you used:
- 8921 strings out of 493488
- 122316 string characters out of 3146892
+ 8926 strings out of 493488
+ 122429 string characters out of 3146892
  213331 words of memory out of 3000000
- 11989 multiletter control sequences out of 15000+200000
+ 11994 multiletter control sequences out of 15000+200000
  46126 words of font info for 50 fonts, out of 3000000 for 9000
  958 hyphenation exceptions out of 8191
  36i,11n,45p,255b,382s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1031,7 +1035,7 @@ Here is how much of TeX's memory you used:
 ts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helveti
 c/uhvbo8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/sha
 re/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on Spezifikation.pdf (13 pages, 213553 bytes).
+Output written on Spezifikation.pdf (13 pages, 214530 bytes).
 PDF statistics:
  120 PDF objects out of 1000 (max. 8388607)
  86 compressed objects within 1 object stream

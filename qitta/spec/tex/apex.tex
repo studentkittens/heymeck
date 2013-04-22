@@ -1,0 +1,131 @@
+\documentclass[11pt]{scrreprt}
+
+% default stuff 
+\usepackage[utf8]{inputenc}
+\usepackage{ngerman}
+\usepackage{hyperref}
+\linespread{1.25}
+\usepackage{listings} 
+\usepackage{graphicx}
+\usepackage[usenames,dvipsnames,table]{xcolor}
+\usepackage{tikz}
+\usepackage{multirow} %für Multirow Tabellen
+
+\definecolor{a}{HTML}{FDF9EF}
+%Hintergrund Text
+\definecolor{b}{HTML}{F4F1E5}
+%Hintergrund Body
+\definecolor{c}{HTML}{544738}
+%Schriftfarbe
+\definecolor{d}{HTML}{98BF21}
+%Buttonflächen
+\definecolor{e}{HTML}{C2C5BE}
+%Footerbackground
+\definecolor{f}{HTML}{BBBBBB}
+%Schrift in Tagcloud
+\definecolor{g}{HTML}{303030}
+%Tagcloud
+
+\lstset{numbers=left, numberstyle=\tiny, numbersep=5pt} \lstset{language=Perl}
+\setcounter{tocdepth}{2}
+%Kopf- und Fußzeile
+\usepackage{fancyhdr}
+\pagestyle{fancyplain}
+\fancyhf{}
+
+%Kopfzeile links bzw. innen
+\fancyhead[L]{\nouppercase{\leftmark}}
+%Kopfzeile rechts bzw. außen
+\fancyhead[R]{\today}
+%Linie oben
+\renewcommand{\headrulewidth}{0.5pt}
+
+%Fußzeile links bzw. innen
+\fancyfoot[L]{Apex Movie Metadata Source}
+%Fußzeile rechts bzw. außen
+\fancyfoot[R]{\thepage}
+%Linie unten
+\renewcommand{\footrulewidth}{0.5pt}
+
+% beautiful colors like redrubin ;)
+
+%titlepage will das so
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+% let the fun begin
+\begin{document}
+
+\input{./title.tex}
+\tableofcontents
+
+\chapter{Spezifikation}
+\section{Beschreibung und Datenbankschema}
+Im Rahmen der Studienarbeit Entwicklung von Webanwendungen soll eine Apex
+Applikation realisiert werden. Das gewählte Thema umfasst eine Film Metadaten
+Plattform, ähnlich dem großem IMDb Vorbild. (www.imdb.com) 
+\\
+Die Film-Datenbank soll die grundlegende Metadaten verwalten können und folgende
+Funktionalität bieten:
+
+\begin{itemize}
+\item Film Metadaten inklusive Poster-Art + Fan-Art
+\item Film Informationen auswertbar nach Genre bzw benutzerdefinierten Tags
+\item Informationen zum Regisseur/Drehbuchautor
+\item Informationen zu Schauspielern inkl. Foto + Statistiken
+\item Verschiedene statistische Auswertungsmöglichkeiten von
+\item Film/Genre/Personen-Metadaten
+\item Rating System
+\item Erstellen von Favoriten-Listen
+\end{itemize}
+ 
+
+Im Folgenden ist das normalisierte Datenbankschema für die o. g. Applikation:
+
+\includegraphics[scale=0.5]{../pics/dataschema}
+
+
+\subsection{Main View}
+\includegraphics[width=\textwidth]{../pics/mainview}
+\paragraph{Inhalt:}
+\begin{itemize}
+\item Hauptseite mit Suchfunktion
+\item Kürzlich hinzugefügte Filme anzeigen
+\item Links zur \emph{Movies}, \emph{Genre}, \emph{Persons} und
+    \emph{Statistics} Seite
+\end{itemize}
+
+\subsection{Movie View}
+\includegraphics[width=\textwidth]{../pics/movieview}
+\paragraph{Inhalt:}
+\begin{itemize}
+    \item Anzeige von Film-Metadaten, Poster-Art, Fan-Art, Crew und Cast
+        Informationen im oberen Bereich
+    \item Anzeige von ,,Similar Movies'' im unteren Bereich
+    \item Cast/Crew und Similar Movies leiten auf die jeweilige spezialisierte
+        Seite weiter
+\end{itemize}
+
+\subsection{Person View}
+\includegraphics[width=\textwidth]{../pics/actorview}
+\paragraph{Inhalt:}
+\begin{itemize}
+    \item Anzeigen von Schauspieler-Photo und Biografie im oberen Bereich
+    \item Anzeigen von Filmen in denen der Schauspieler mitspielt im unteren Bereich
+\end{itemize}
+
+
+\subsection{Statistics}
+\includegraphics[width=\textwidth]{../pics/statistics}
+\paragraph{Inhalt:}
+Anzeige von verschiedenen Statistiken wie z.B.:
+\begin{itemize}
+\item Liste der besten/schlechtesten Filme
+\item Statistische Auswertung nach Laufzeit, Herstellungsland, Rating, etc.
+\item Genre Charts (z.B. Tortendiagramm)
+\item Person Charts nach Filmgenre
+\item Rating Chart
+\item Statistiken zu gesehenen und eingetragenen Filmen
+\item Favoriten Listen und Statistiken erstellen  
+\end{itemize}
+
+\end{document}

@@ -5,7 +5,7 @@
 
 
 Beschreibung und Datenbankschema
---------------------------------
+================================
 
 Im Rahmen der Studienarbeit Entwicklung von Webanwendungen soll eine Apex
 Applikation realisiert werden. Das gewählte Thema umfasst eine Film Metadaten
@@ -27,7 +27,6 @@ Funktionalität bieten:
 Im folgenden ist das Normalisiertes Datenbankschema für die o. g. Applikation:
 
 .. image:: ./dataschema.png
-  :scale: 70 
 
 
 Main View

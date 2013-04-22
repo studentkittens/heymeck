@@ -1,0 +1,10 @@
+\contentsline {chapter}{\numberline {1}Spezifikation}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}Beschreibung und Datenbankschema}{3}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Main View}{5}{subsection.1.1.1}
+\contentsline {paragraph}{Inhalt:}{5}{section*.2}
+\contentsline {subsection}{\numberline {1.1.2}Movie View}{6}{subsection.1.1.2}
+\contentsline {paragraph}{Inhalt:}{6}{section*.3}
+\contentsline {subsection}{\numberline {1.1.3}Person View}{7}{subsection.1.1.3}
+\contentsline {paragraph}{Inhalt:}{7}{section*.4}
+\contentsline {subsection}{\numberline {1.1.4}Statistics}{8}{subsection.1.1.4}
+\contentsline {paragraph}{Inhalt:}{8}{section*.5}
